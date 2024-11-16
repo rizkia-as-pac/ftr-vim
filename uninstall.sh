@@ -7,5 +7,5 @@ for pkg in $(cat ./arch-official-packages.txt); do
   fi
 done
 
-sudo rm -r $HOME/shell_config_features/ftr-vim
+mv ./config.sh ./exclude-config.sh
 sudo rm -r $HOME/.vimrc
