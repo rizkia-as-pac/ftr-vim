@@ -9,3 +9,4 @@ done
 
 mv ./config.sh ./exclude-config.sh
 sudo rm -r $HOME/.vimrc
+sudo rm -r $HOME/.vim
